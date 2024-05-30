@@ -1,0 +1,29 @@
+.jobSidebar {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .jobSidebarList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .jobSidebarItem {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .jobSidebarItem.active,
+  .jobSidebarItem:hover {
+    background-color: teal;
+    color: white;
+  }
+  

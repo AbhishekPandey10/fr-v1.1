@@ -1,0 +1,91 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex: 1;
+  }
+  
+  .questionsContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .q_uploadSection {
+    width: 68%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .a_uploadSection {
+    width: 28%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .uploadForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .fileInput {
+    margin-bottom: 10px;
+  }
+  
+  .directionsInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  .dueDateInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .uploadButton {
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .uploadButton:hover {
+    background-color: darkcyan;
+  }
+  
+  .questionList, .assignmentList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .questionListItem, .assignmentListItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .questionListItem a, .assignmentListItem a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  .questionListItem a:hover, .assignmentListItem a:hover {
+    text-decoration: underline;
+  }
+  

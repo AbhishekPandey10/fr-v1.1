@@ -1,0 +1,35 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+  
+    .contentContainer {
+      display: flex;
+      flex: 1;
+      padding-top: 50px;
+      }
+  
+      .mainContent {
+        flex: 1;
+        margin-left: 60px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: margin-left 0.3s ease;
+  
+        section {
+          margin-bottom: 20px;
+  
+          h2 {
+            margin-bottom: 10px;
+            color: teal;
+          }
+  
+          p {
+            color: #333;
+          }
+        }
+      }
+    }

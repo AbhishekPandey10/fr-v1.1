@@ -1,0 +1,142 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+}
+
+.chatContainer {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.friendsList {
+  width: 300px;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.friendsList h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: teal;
+  text-align: center;
+}
+
+.friendItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.friendItem img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friendItem:hover,
+.friendItem.active {
+  background-color: teal;
+  color: white;
+}
+
+.chatWindow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.chatWindow h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: teal;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.message.sent {
+  background-color: teal;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.received {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.inputContainer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.inputContainer input:focus {
+  border-color: teal;
+}
+
+.inputContainer button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.inputContainer button:hover {
+  background-color: #0056b3;
+}

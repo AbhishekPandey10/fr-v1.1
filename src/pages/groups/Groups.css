@@ -1,0 +1,45 @@
+.groupsContainer {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .createGroupForm {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .groupInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    margin-right: -1px;
+  }
+  
+  .createGroupButton {
+    padding: 10px 15px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .createGroupButton:hover {
+    background-color: darkcyan;
+  }
+  
+  .groupList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .groupListItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
